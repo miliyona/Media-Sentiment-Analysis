@@ -1,16 +1,15 @@
-# Unit 7 | Assignment - Distinguishing Sentiments
+# Unit 7 | Project Title - Distinguishing Sentiments--- Media Sentiment Analysis
 
 ## Background
 
 **Twitter** has become a wildly sprawling jungle of information—140 characters at a time. Somewhere between 350 million and 500 million tweets are estimated to be sent out _per day_. With such an explosion of data, on Twitter and elsewhere, it becomes more important than ever to tame it in some way, to concisely capture the essence of the data.
 
-Choose **one** of the following two assignments, in which you will do just that. Good luck!
 
 ## News Mood
 
-In this assignment, you'll create a Python script to perform a sentiment analysis of the Twitter activity of various news outlets, and to present your findings visually.
+In this project, we'll create a Python script to perform a sentiment analysis of the Twitter activity of various news outlets, and to present the findings visually.
 
-Your final output should provide a visualized summary of the sentiments expressed in Tweets sent out by the following news organizations: **BBC, CBS, CNN, Fox, and New York times**.
+The final output should provide a visualized summary of the sentiments expressed in Tweets sent out by the following news organizations: **BBC, CBS, CNN, Fox, and New York times**.
 
 ![output_10_0.png](Images/output_10_0.png)
 
@@ -26,7 +25,7 @@ The second plot will be a bar plot visualizing the _overall_ sentiments of the l
 
 The tools of the trade you will need for your task as a data analyst include the following: tweepy, pandas, matplotlib, and VADER.
 
-Your final Jupyter notebook must:
+The Jupyter notebook performs:
 
 * Pull last 100 tweets from each outlet.
 * Perform a sentiment analysis with the compound, positive, neutral, and negative scoring for each tweet.
@@ -34,22 +33,8 @@ Your final Jupyter notebook must:
 * Export the data in the DataFrame into a CSV file.
 * Save PNG images for each plot.
 
-As final considerations:
+Tools used:
 
-* You must complete your analysis using a Jupyter notebook.
-* You must use the Matplotlib or Pandas plotting libraries.
-* Include a written description of three observable trends based on the data.
-* Include proper labeling of your plots, including plot titles (with date of analysis) and axes labels.
-
-## PlotBot
-
-In this activity, more challenging than the last, you will build a Twitter bot that sends out visualized sentiment analysis of a Twitter account's recent tweets.
-
-Visit <https://twitter.com/PlotBot5> for an example of what your script should do.
-
-The bot receives tweets via mentions and in turn performs sentiment analysis on the most recent twitter account specified in the mention
-
-For example, when a user tweets, **"@PlotBot Analyze: @CNN,"** it will trigger a sentiment analysis on the CNN twitter feed.
-
-A plot from the sentiment analysis is then tweeted to the PlotBot5 twitter feed. See below for examples of scatter plots you will generate:
+* Jupyter notebook.
+* Matplotlib and Pandas plotting libraries.
 
